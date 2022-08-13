@@ -18,7 +18,8 @@
   padding: 50px;
 }
 
-h1 {
+h1
+ {
   color: var(--primary-color);
   font-size: 70px;
   margin: 0 auto;
@@ -34,7 +35,7 @@ h2 {
   font-family: var(--primary-font);
 }
 .about-me{
-  margin: 100px;
+  margin: 40px;
 }
 
 h3,
@@ -71,39 +72,43 @@ h4 {
   background-color: var(--btn-color);
   color: var(--text-color);
   font-size: 20px;
-  
   border-radius: var(--btn-bor-rad);
 }
-
-
-
 a {
   text-decoration: none;
-  font0-family: "Poppins", sans-serif;
 }
-
+h5{
+ color: var(--primary-color);
+  font-size: 70px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  font-family: var(--primary-font);
+}
+.project-title{
+  color: var(--primary-color);
+  font-size: 35px;
+  margin: 10px;
+  
+  font-family: var(--primary-font);
+  text-align: start;
+}
 
 .projects-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-top: 50px;
-  display: block;
-  margin-left: 28px;
-  text-align: justify;
+  text-align: start;
+  line-height: 27px;
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  
 }
 
-h5,
-h6 {
-  font-size: 48px;
-  margin-top: 25px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-left: 28px;
-  color: var(--primary-color);
-}
+
+
 .btn {
-  margin-left: 30px;
-  margin-top: 28px;
+  padding: 18px;
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  font-size: 15px;
+  
 }
 
 @media (max-width: 900px){
