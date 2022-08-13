@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #312f64;
-  --secondary-color: #7cafc5;
+  --primary-color: #3baea0;
+  --secondary-color: 
   --back-color: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  --btn-color: #ffc93c;
+  --btn-color: 
 }
 .main-container {
   display: block;
@@ -11,26 +11,28 @@
   padding: 20px;
   font-family: "Poppins", sans-serif;
 }
-h1,
+h1{
+ color: #3baea0;
+}
 h6 {
   padding-top: 45px;
   margin-bottom: 2px;
   font-size: 70px;
   text-shadow: 12px -6px 4px rgba(255, 201, 60, 0.5);
-  color: var(--primary-color);
+  color: 
 }
 h2 {
   margin: 2px;
   padding: 5px;
   font-size: 22px;
-  color: var(--secondary-color);
+  color: 
 }
 
-h3,
+
 h4,
 h5 {
   font-size: 40px;
-  color: var(--primary-color);
+  color: 
   margin-top: 5px;
   text-align: center;
   text-shadow: 2px 2px 23px rgba(49, 47, 100, 0.6);
@@ -49,7 +51,7 @@ h5 {
   flex: 1;
   height: 60%;
   margin-bottom: 5px;
-  background: var(--back-color);
+  background: 
   border: 1px dashed;
   border-radius: 15px;
   padding: 50px;
@@ -71,8 +73,8 @@ li {
   padding: 15px;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
-  color: var(--primary-color);
-  background: var(--btn-color);
+  color: 
+  background: 
   border: 1px dashed;
   border-radius: 15px;
 }
