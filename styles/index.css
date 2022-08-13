@@ -7,7 +7,6 @@
 
   --btn-pad: 20px 30px;
   --btn-color: #3baea0;
-  --btn-border: 2px solid #312f64;
   --btn-bor-rad: 5px;
 }
 
@@ -101,8 +100,6 @@ h5{
   
 }
 
-
-
 .btn {
   padding: 18px;
   background-color: var(--btn-color);
@@ -112,33 +109,24 @@ h5{
 }
 
 @media (max-width: 900px){
-  img.projects-img-fluid  {
-    display:center;
+
+  h1,h5{
+    font-size: 30px ;
+    margin: 5px;
   }
-  h1 {
-    font-size: 30px;
+  h2{
+    font-size: 15px ;
   }
-  h2 {
-    font-size: 25px;
+ .projects-container{
+  margin: 0 auto;
+  padding: 2px;
+ }
+  .projects-img-fluid{
+    display: none;
   }
-  .navigation{
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
- 
-h4,
-h5,
-h6 {
-  font-size: 32px;
+
+.project-title{
+font-size: 20px;
+margin: 2px;
 }
- 
-  .projects-p {
-    text-align: center;
-    font-size: 13px;
-  }
-  .projects-img-fluid  {
-   display: none;
-  }
 }
