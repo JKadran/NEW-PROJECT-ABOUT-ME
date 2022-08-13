@@ -107,6 +107,26 @@ h5{
   font-size: 15px;
   
 }
+.certificates{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.cert {
+  color: var(--primary-color);
+  font-size: 70px;
+  padding-bottom: 30px;
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 900px){
 
