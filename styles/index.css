@@ -80,14 +80,14 @@ h5{
  color: var(--primary-color);
   font-size: 70px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   font-family: var(--primary-font);
+  
 }
 .project-title{
   color: var(--primary-color);
   font-size: 35px;
   margin: 10px;
-  
   font-family: var(--primary-font);
   text-align: start;
 }
@@ -100,16 +100,15 @@ h5{
   
 }
 
-.btn {
-  padding: 18px;
-  background-color: var(--btn-color);
-  color: var(--text-color);
-  font-size: 15px;
-  
+.link{
+  color:var(--primary-color);
+  text-decoration: underline;
+  padding-top: 50px;
 }
 .certificates{
   margin-top: 50px;
   margin-bottom: 20px;
+  padding: -80%;
 }
 .cert {
   color: var(--primary-color);
@@ -119,16 +118,34 @@ h5{
   text-align: center;
 }
 
+.contacts{
+  display: inline;
+  text-align: center;
+    
+  }
+  .info{
+   font-size: 25px;
+   font-family: var(--secondary-color);
+    margin: 10px 400px;
+    padding: 20px;
+    border: 2px groove #3baea0 ;
+    border-radius: 15px ;
+    background-color: var(--primary-color);
+  }
+  .back-home{
+    text-align: justify;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+ footer{
+  margin-top: 50px;
+  width: 100%;
+ }
+ 
 
-
-
-
-
-
-
-
-
-@media (max-width: 900px){
+@media (max-width: 900px)  {
 
   h1,h5{
     font-size: 30px ;
@@ -142,11 +159,29 @@ h5{
   padding: 2px;
  }
   .projects-img-fluid{
-    display: none;
+  width:95%;
+  height: 95%;
   }
 
 .project-title{
-font-size: 20px;
-margin: 2px;
+  font-size: 20px;
+  margin: 2px;
+}
+.certificates{
+  margin: 0 auto;
+  padding: 2px;
+  
+}
+.cert-img-fluid{
+  margin: 20px;
+  width:100%;
+  height: 100%;
+}
+.contacts{
+ margin: 100px;
+}
+.info{
+ margin:50px;
+ 
 }
 }
