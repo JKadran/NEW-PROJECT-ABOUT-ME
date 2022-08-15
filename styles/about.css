@@ -68,23 +68,27 @@ text-align: justify;
   left: 711px;
   top: 180px;
  }
- .details {
-  text-align: justify;
-  line-height: 45px;
-  font-family: var(--primary-font);
-  color: var(--text-color);
-  margin-left: 100px;
- }
+
 .navigation {
-  padding: 30px;
+padding: 18px 30px;
+position: absolute;
+left: 140px;
+top: 681px;
+
+
 }
 .contact {
-  margin-left: 20px;
+ 
   padding: var(--btn-pad);
   background-color: var(--btn-color);
   color: var(--text-color);
   font-size: 20px;
-  border-radius: var(--btn-bor-rad);
+  border-radius: 5px;
+  width: 139px;
+  height: 27px;
+
+
+
 }
 a {
   text-decoration: none;
