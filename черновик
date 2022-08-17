@@ -1,0 +1,16 @@
+ <h1><bold>Let's get in touch!</bold></h1>
+   <div class="main-comtainer"></div>
+     <div id="cont-me" class="contacts" >
+         <h2>My contacts:</h2>
+         <p class="info">
+            <a class="email" href="mailto:juliakadran@gmail.com">
+            juliakadran@gmail.com </a>
+            </br>
+            +38(063)659-18-03
+            </br>
+            <i class="fa-brands fa-instagram "></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </p>
+     </div>
+  </div>
+  
