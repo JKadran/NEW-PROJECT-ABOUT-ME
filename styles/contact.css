@@ -12,46 +12,46 @@
 }
 
 h1{
-position: absolute;
-width: 700px;
-height: 255px;
-left: calc(50% - 515px/2 - 318.5px);
-top: 100px;
 color:var(--primary-color);
 font-family: var(--primary-font);
-font-weight: 100;
+position: absolute;
+width: 600px;
+font-weight: 700;
 font-size: 64px;
 line-height: 85px;
+margin: 100px 144px;
+
+
 }
 .contacts{
 position: absolute;
-width: 1050px;
-height: 200px;
+width: 1160px;
+height: 220px;
 left: 140px;
 top: 300px;
+bottom: 186px;
+background: #F9F7FE;
+border-radius: 20px;
 background:#92e2d9;
 border-radius: 10px;
 }
- h2 {
-position: absolute;
-width: 298px;
-height: 64px;
-left: 100px;
-top: 20px;
+
+h2 {
 font-family: var(--primary-font);
 color: var(--secondary-color);
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
+position: absolute;
+width: 800px;
+height: 64px;
+margin: 28px 119px 87px 50px;
 }
-
 .phone{
 position: absolute;
 width: 449px;
 height: 27px;
-left: 450px;
+display: flex;
+justify-content: center;
 top: 80px;
+left: 50px;
 font-family: var(--primary-font);
 font-weight: 400;
 font-size: 28px;
@@ -59,11 +59,12 @@ line-height: 45px;
 color: var(--text-color);
 }
 
-.icons{
- margin-top:150px;
- margin-left: 530px;
+i{
+ text-align: center;
+ margin: 150px 40px;
+ font-size: 25px;
+ color: var(--secondary-color);
 }
-
 button{
 display: flex;
 flex-direction: row;
@@ -73,12 +74,31 @@ padding: 18px 30px;
 position: absolute;
 width: 150px;
 height: 63px;
-left: 979px;
-top: 380px;
+top: 360px;
+left: 1000px;
 border-radius: 4px;
+}
+button:hover{
+  color: blue;
+  text-decoration: underline;
 }
 a{
   text-decoration: none;
   color:var(--text-color);
+  font-family: var(--primary-font);
+}
+
+footer{
+  background-color: #bceee8;
+  margin-top:520px;
+  height: 50px;
+}
+.source{
+ text-align: center;
+ margin: 20px;
+ font-family: var(--primary-font);
+}
+.source a{
+ color: blue;
 }
 
