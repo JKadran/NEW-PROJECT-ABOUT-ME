@@ -9,24 +9,20 @@
   --btn-color: #3baea0;
   --btn-bor-rad: 5px;
 }
-
 .main-container {
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 50px;
 }
-
-h1
- {
+h1{
   color: var(--primary-color);
   font-size: 70px;
   margin: 0 auto;
   padding: 2px;
   font-family: var(--primary-font);
 }
-
-h2 {
+h2{
   color: var(--secondary-color);
   font-size: 20px;
   margin: 10px;
@@ -36,7 +32,6 @@ h2 {
 .about-me{
   margin: 40px;
 }
-
 h3,
 h4 {
   color: var(--primary-color);
@@ -49,7 +44,7 @@ h4 {
   text-align: justify;
   line-height: 27px;
   font-family: var(--primary-font);
-  color: var(--text-color)
+  color: var(--text-color);
 }
  .my-photo{
   border-radius: 150px;
@@ -75,7 +70,7 @@ h4 {
   border-radius: var(--btn-bor-rad);
 }
 a {
-  text-decoration: none;
+ text-decoration: none;
 }
 h5{
   color: var(--primary-color);
@@ -91,14 +86,10 @@ h6{
   padding-bottom: 40px;
   font-family: var(--primary-font);
 }
- 
-
- 
 .link-p{
   color: var(--secondary-color);
   text-decoration: underline;
 }
-
 .certificates{
   margin-top: 50px;
   margin-bottom: 20px;
@@ -111,39 +102,126 @@ h6{
   font-family: var(--primary-font);
   text-align: center;
 }
-
 .contacts{
   display: inline;
   text-align: center;
   padding: 50px;
   
 }
-  .info{
-   font-size: 16px;
-   font-family: var(--secondary-color);
-    margin: 10px 400px;
-    padding: 20px;
-    border: 2px groove #3baea0 ;
-    border-radius: 15px ;
-    background-color: var(--primary-color);
+.info{
+  font-size: 16px;
+  font-family: var(--secondary-color);
+  margin: 10px 400px;
+  padding: 20px;
+  border: 2px groove #3baea0 ;
+  border-radius: 15px ;
+  background-color: var(--primary-color);
   }
-  .back-home{
-    text-align: justify;
-    font-size: 20px;
-    font-family: var(--primary-font);
-    text-decoration: underline;
-    margin-bottom: 50px;
-  }
-
-  footer{
+.back-home{
+  text-align: justify;
+  font-size: 20px;
+  font-family: var(--primary-font);
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+footer{
  text-align: center;
  margin-top: 90px;
  font-family: var(--primary-font);
  color: var(--secondary-color);
 }
-
  a{
  color: blue;
 }
 
-  
+@media(max-width:990px){
+
+ h1{
+  font-size: 25px;
+   text-align: center;
+ }
+ h2{
+ font-size: 10px; 
+  text-align: center;
+ }
+h3,
+h4,h6 {
+  font-size: 20px;
+  margin: -20px;
+  text-align: center;
+}
+.about-me{
+ text-align: justify;
+}
+.story{
+ display: none;
+}
+.my-photo{
+  width:90px;
+  margin: -25px;
+}
+.details{
+  width:100px;
+  font-size: 10px;
+ line-height: 22px;
+ text-align: justify;
+ margin-left: -10px;
+ margin-top: -25px;
+}
+h4,
+.navigation
+{
+  display: none;
+ }
+ h5{
+  font-size: 10px;
+  margin-top: ;
+ }
+ .card-title-croissant{
+  margin-top: -20px;
+ }
+ .card-title-weather{
+  margin-top:10px ;
+ }
+ .link-p{
+  font-size: 10px;
+  margin-top: -10px;
+ }
+ .prj-img-fluid{
+  width:150px;
+  height: 100px;
+  margin-top: -30px;
+ }
+ .cert-img-fluid{
+  width:150px;
+  height: 100px;
+  margin-top: 10px;
+ }
+ footer{
+   font-size: 5px;
+   text-align: center;
+   margin-top: 40px;
+ }
+}
+@media(min-width:1200px){
+.about-me{
+ text-align: justify;
+}
+.story{
+ display: block;
+ font-size: 15px;
+ margin-top: 20px;
+}
+.my-photo{
+  width:300px;
+  margin-left: 50px;
+}
+.details{
+  width:150px;
+  font-size: 15px;
+ line-height: 22px;
+ text-align: justify;
+ margin-left: 400px;
+ margin-top: -130px;
+}
+}
