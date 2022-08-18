@@ -203,25 +203,3 @@ h4,
    margin-top: 40px;
  }
 }
-@media(min-width:1200px){
-.about-me{
- text-align: justify;
-}
-.story{
- display: block;
- font-size: 15px;
- margin-top: 20px;
-}
-.my-photo{
-  width:300px;
-  margin-left: 50px;
-}
-.details{
-  width:150px;
-  font-size: 15px;
- line-height: 22px;
- text-align: justify;
- margin-left: 400px;
- margin-top: -130px;
-}
-}
