@@ -8,17 +8,23 @@
   --btn-pad: 20px 30px;
   --btn-color: #3baea0;
 }
+.main-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
 
 h1{
 position: absolute;
 width: 500px;
 height: 170px;
 left: calc(50% - 500px/2 - 330px);
-top: 150px;
+top: 120px;
 font-family:var(--primary-font);
 font-style: normal;
 font-weight: 700;
-font-size: 64px;
+font-size: 45px;
 line-height: 85px;
 color: var(--primary-color);
 }
@@ -27,7 +33,7 @@ position: absolute;
 width: 506px;
 height: 27px;
 left: calc(50% - 506px/2 - 327px);
-top: 270px;
+top: 220px;
 font-family: var(--primary-font);
 font-style: normal;
 font-weight: 700;
@@ -40,7 +46,7 @@ position: absolute;
 width: 475px;
 height: 120px;
 left: calc(50% - 475px/2 - 342.5px);
-top: 350px;
+top: 280px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -54,13 +60,13 @@ text-align: justify;
   margin-left: 50px;
   position: absolute;
   left: 711px;
-  top: 180px;
+  top: 120px;
  }
 .navigation {
 padding: 18px 30px;
 position: absolute;
 right: 350px;
-top: 681px;
+top: 600px;
 }
 .contact {
   padding: var(--btn-pad);
@@ -79,7 +85,7 @@ a {
   font-size: 15px;
   color: var(--secondary-color);
   text-align: center;
-  margin-top: 800px;
+  margin-top: 700px;
  
 }
  a{
