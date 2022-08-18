@@ -13,4 +13,43 @@
         </p>
      </div>
   </div>
+
+
+
+   <div id="projects" class="projects-container mt-20">
+       <div class="row">
+          <div class="col-sm-6 text-center">
+            <img src="images/croissant.jpeg" alt="yoga" class="projects-img-fluid rounded" width="450" height="420" />
+          </div>
+          <div class="col-sm-6 text-start   p-2 m-0">
+            <h3>Croissant Web</h3>
+            <p class="p-croissant ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Perferendis quia, dignissimos nam ratione veniam quibusdam 
+              porro omnis quam vel eos eveniet alias temporibus deserunt 
+              veritatis minima fugiat explicabo eum dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Perferendis quia, dignissimos nam ratione veniam quibusdam 
+              porro omnis quam vel eos eveniet alias temporibus deserunt 
+              veritatis minima fugiat explicabo eum dolore.
+            </p>
+          </div>
+
+          <div class="col-sm-6 text-start  p-2 m-0">
+            <h4>Weather App</h4>
+            <p class="p-weather ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+              quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+              eos eveniet alias temporibus deserunt veritatis minima fugiat
+              explicabo eum dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Perferendis quia, dignissimos nam ratione veniam quibusdam 
+              porro omnis quam vel eos eveniet alias temporibus deserunt 
+              veritatis minima fugiat explicabo eum dolore.
+            </p>
+          </div>
+          <div class="col-sm-6 text-start">
+            <img src="images/weather-app.jpeg" alt="weather" class="projects-img-fluid rounded" width="500" height="350"  />
+          </div>
+        </div>
+      </div>
+ 
   
