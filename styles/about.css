@@ -7,14 +7,6 @@
 
   --btn-pad: 20px 30px;
   --btn-color: #3baea0;
-  
-}
-
-.main-container {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 50px;
 }
 
 h1{
@@ -30,14 +22,12 @@ font-size: 64px;
 line-height: 85px;
 color: var(--primary-color);
 }
-
 h2 {
 position: absolute;
 width: 506px;
 height: 27px;
 left: calc(50% - 506px/2 - 327px);
 top: 270px;
-
 font-family: var(--primary-font);
 font-style: normal;
 font-weight: 700;
@@ -45,8 +35,6 @@ font-size: 18px;
 line-height: 27px;
 color: #272142;
 }
-
-
 .story{
 position: absolute;
 width: 475px;
@@ -61,22 +49,20 @@ line-height: 30px;
 color: var(--text-color);
 text-align: justify;
 }
- .my-photo{
+.my-photo{
   border-radius: 150px;
   margin-left: 50px;
   position: absolute;
   left: 711px;
   top: 180px;
  }
-
 .navigation {
 padding: 18px 30px;
 position: absolute;
-left: 140px;
+right: 350px;
 top: 681px;
 }
 .contact {
- 
   padding: var(--btn-pad);
   background-color: var(--btn-color);
   color: var(--text-color);
@@ -84,81 +70,22 @@ top: 681px;
   border-radius: 5px;
   width: 139px;
   height: 27px;
-
-
-
 }
 a {
   text-decoration: none;
 }
-h5{
- color: var(--primary-color);
-  font-size: 70px;
-  margin: 0 auto;
-  padding-bottom: 30px;
-  font-family: var(--primary-font);
-  
-}
-.project-title{
-  color: var(--primary-color);
-  font-size: 35px;
-  margin: 10px;
-  font-family: var(--primary-font);
-  text-align: start;
-}
-
-.projects-p {
-  text-align: start;
-  line-height: 27px;
-  font-family: var(--primary-font);
-  color: var(--text-color);
-  
-}
-
-.link{
-  color:var(--primary-color);
-  text-decoration: underline;
-  padding-top: 50px;
-}
-.certificates{
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding: -80%;
-}
-.cert {
-  color: var(--primary-color);
-  font-size: 70px;
-  padding-bottom: 30px;
-  font-family: var(--primary-font);
-  text-align: center;
-}
-
-.contacts{
-  display: inline;
-  text-align: center;
-    
-  }
-  .info{
-   font-size: 25px;
-   font-family: var(--secondary-color);
-    margin: 10px 400px;
-    padding: 20px;
-    border: 2px groove #3baea0 ;
-    border-radius: 15px ;
-    background-color: var(--primary-color);
-  }
-  .back-home{
-    text-align: justify;
-    font-size: 20px;
-    font-family: var(--primary-font);
-    text-decoration: underline;
-    margin-bottom: 50px;
-  }
  footer{
-  margin-top: 50px;
-  width: 100%;
- }
+  font-family: var(--primary-font);
+  font-size: 15px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 800px;
  
+}
+ a{
+ color: blue;
+}
+
 
 @media (max-width: 900px)  {
 
