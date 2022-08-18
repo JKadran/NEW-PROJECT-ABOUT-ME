@@ -77,35 +77,28 @@ h4 {
 a {
   text-decoration: none;
 }
-h5,h6{
- color: var(--primary-color);
+h5{
+  color: var(--primary-color);
+  font-size: 25px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-family: var(--primary-font);
+}
+h6{
+  color: var(--primary-color);
   font-size: 70px;
   margin: 0 auto;
   padding-bottom: 40px;
   font-family: var(--primary-font);
-  
 }
-.project-title{
-  color: var(--primary-color);
-  font-size: 35px;
-  margin: 10px;
-  font-family: var(--primary-font);
-  text-align: start;
-}
+ 
 
-.projects-p {
-  text-align: start;
-  line-height: 27px;
-  font-family: var(--primary-font);
-  color: var(--text-color);
-  
-}
-
-.link{
-  color:var(--primary-color);
+ 
+.link-p{
+  color: var(--secondary-color);
   text-decoration: underline;
-  padding-top: 50px;
 }
+
 .certificates{
   margin-top: 50px;
   margin-bottom: 20px;
@@ -141,89 +134,16 @@ h5,h6{
     text-decoration: underline;
     margin-bottom: 50px;
   }
- footer{
-  margin-top: 50px;
-  width: 100%;
- }
- 
-  @media (max-width: 900px) {
-    html,body{
-      overflow-x: hidden;
-    }
-  h1,h5,h6 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  .about-me {
-    padding: 5px 20px;
-  }
- .my-photo{
-  width: 250px;
-  margin-left: 10px;
-  
- }
-  .story {
-    text-align: justify;
-    padding: -200px ;
-    font-size: 15px;
-  }
-  .details{
-    text-align: justify;
-    line-height: 20px;
-    font-family: var(--primary-font);
-    color: var(--text-color);
-    margin-left: 50px;
-  }
-  h4 {
-    font-size: 18px;
-    margin-left: 2px;
-    margin-left: 50px;
-    
-  }
-  .navigation {
-  padding: 10px;
-  margin: 10px;
-  
-}
-.contact {
-  margin-left: 20px;
-  padding: var(--btn-pad);
-  background-color: var(--btn-color);
-  color: var(--text-color);
-  font-size: 12px;
-  border-radius: var(--btn-bor-rad);
+
+  footer{
+ text-align: center;
+ margin-top: 90px;
+ font-family: var(--primary-font);
+ color: var(--secondary-color);
 }
 
- .projects-container{
-  margin: 0 auto;
-  padding: 2px;
- }
-  .projects-img-fluid{
-  width:95%;
-  height: 95%;
-  }
-.project-title{
-  font-size: 20px;
-  margin: 2px;
+ a{
+ color: blue;
 }
-.certificates{
- padding-left: -30px;
-  margin-bottom: 100px;
-}
-.cert-img-fluid{
-  margin: 20px;
-  width:100%;
-  height: 100%;
-}
-.contacts{
- margin: 10px;
- padding: 10px;
-}
-.info{
- margin:40px;
- font-size: 12px;
-}
-}
+
+  
