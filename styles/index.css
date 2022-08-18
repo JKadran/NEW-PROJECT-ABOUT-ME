@@ -41,7 +41,7 @@ h4 {
   font-family: var(--primary-font);
 }
 .story{
-  text-align: justofy;
+  text-align: justify;
   line-height: 30px;
   font-family: var(--primary-font);
   color: var(--text-color);
