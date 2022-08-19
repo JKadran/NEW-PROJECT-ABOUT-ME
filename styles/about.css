@@ -9,9 +9,7 @@
   --btn-color: #3baea0;
 }
 
-html {
-overflow: hidden;
-}
+
 .main-container {
   display: block;
   margin: 0 auto;
@@ -29,10 +27,10 @@ line-height: 85px;
 color: var(--primary-color);
 }
 
-.story{
+.story{ 
 margin-right: 400px;
 margin-bottom: -500px;
-font-family: 'Poppins';
+font-family: var(--primary-font);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -71,6 +69,54 @@ a {
 }
  a{
  color: blue;
+}
+
+
+
+
+@media (max-width:990px){
+  html{
+    overflow: hidden;
+  }
+  
+  h1{
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  margin-left:50px;
+  margin-top:-20px;
+  }
+  .story{
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+  width: 260px;
+  margin-top:-20px;
+  margin-left:5px;
+}
+.my-photo{
+  display: none;
+  width: 140px;
+  margin-left:-20px;
+  margin-top:50px;
+ }
+ .navigation {
+  padding: 12px 30px;
+  margin-top: 380px;
+  margin-right:5px;
+}
+ .contact {
+  font-size: 10px;
+  padding: 10px;
+}
+ footer{
+  font-size: 10px;
+  text-align: center;
+  margin-top: 250px;
+  
+  
+ 
+}
 }
 
 
