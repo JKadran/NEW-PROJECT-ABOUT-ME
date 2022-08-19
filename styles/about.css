@@ -8,65 +8,47 @@
   --btn-pad: 20px 30px;
   --btn-color: #3baea0;
 }
+
+html {
+overflow: hidden;
+}
 .main-container {
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 50px;
 }
-
 h1{
-position: absolute;
-width: 500px;
-height: 170px;
-left: calc(50% - 500px/2 - 330px);
-top: 120px;
+margin-right: 500px;
+margin-bottom: 10px;
 font-family:var(--primary-font);
 font-style: normal;
 font-weight: 700;
-font-size: 45px;
+font-size: 40px;
 line-height: 85px;
 color: var(--primary-color);
 }
-h2 {
-position: absolute;
-width: 506px;
-height: 27px;
-left: calc(50% - 506px/2 - 327px);
-top: 220px;
-font-family: var(--primary-font);
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 27px;
-color: #272142;
-}
+
 .story{
-position: absolute;
-width: 475px;
-height: 120px;
-left: calc(50% - 475px/2 - 342.5px);
-top: 280px;
+margin-right: 400px;
+margin-bottom: -500px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 14px;
 line-height: 30px;
 color: var(--text-color);
 text-align: justify;
 }
 .my-photo{
-  border-radius: 150px;
-  margin-left: 50px;
-  position: absolute;
-  left: 711px;
+  border-radius: 100px;
+  margin-left: 800px;
   top: 120px;
  }
 .navigation {
-padding: 18px 30px;
-position: absolute;
-right: 350px;
-top: 600px;
+  padding: 18px 30px;
+  margin-left: -250px;
+  margin-top: -10px;
 }
 .contact {
   padding: var(--btn-pad);
@@ -85,51 +67,10 @@ a {
   font-size: 15px;
   color: var(--secondary-color);
   text-align: center;
-  margin-top: 700px;
- 
+  margin-top: 90px;
 }
  a{
  color: blue;
 }
 
 
-@media (max-width: 900px)  {
-
-  h1,h5{
-    font-size: 30px ;
-    margin: 5px;
-  }
-  h2{
-    font-size: 15px ;
-  }
- .projects-container{
-  margin: 0 auto;
-  padding: 2px;
- }
-  .projects-img-fluid{
-  width:95%;
-  height: 95%;
-  }
-
-.project-title{
-  font-size: 20px;
-  margin: 2px;
-}
-.certificates{
-  margin: 0 auto;
-  padding: 2px;
-  
-}
-.cert-img-fluid{
-  margin: 20px;
-  width:100%;
-  height: 100%;
-}
-.contacts{
- margin: 100px;
-}
-.info{
- margin:50px;
- 
-}
-}
