@@ -1,55 +1,43 @@
- <h1><bold>Let's get in touch!</bold></h1>
-   <div class="main-comtainer"></div>
-     <div id="cont-me" class="contacts" >
-         <h2>My contacts:</h2>
-         <p class="info">
-            <a class="email" href="mailto:juliakadran@gmail.com">
-            juliakadran@gmail.com </a>
-            </br>
-            +38(063)659-18-03
-            </br>
-            <i class="fa-brands fa-instagram "></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-        </p>
-     </div>
-  </div>
-
-
-
-   <div id="projects" class="projects-container mt-20">
-       <div class="row">
-          <div class="col-sm-6 text-center">
-            <img src="images/croissant.jpeg" alt="yoga" class="projects-img-fluid rounded" width="450" height="420" />
-          </div>
-          <div class="col-sm-6 text-start   p-2 m-0">
-            <h3>Croissant Web</h3>
-            <p class="p-croissant ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Perferendis quia, dignissimos nam ratione veniam quibusdam 
-              porro omnis quam vel eos eveniet alias temporibus deserunt 
-              veritatis minima fugiat explicabo eum dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Perferendis quia, dignissimos nam ratione veniam quibusdam 
-              porro omnis quam vel eos eveniet alias temporibus deserunt 
-              veritatis minima fugiat explicabo eum dolore.
-            </p>
-          </div>
-
-          <div class="col-sm-6 text-start  p-2 m-0">
-            <h4>Weather App</h4>
-            <p class="p-weather ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-              quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-              eos eveniet alias temporibus deserunt veritatis minima fugiat
-              explicabo eum dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Perferendis quia, dignissimos nam ratione veniam quibusdam 
-              porro omnis quam vel eos eveniet alias temporibus deserunt 
-              veritatis minima fugiat explicabo eum dolore.
-            </p>
-          </div>
-          <div class="col-sm-6 text-start">
-            <img src="images/weather-app.jpeg" alt="weather" class="projects-img-fluid rounded" width="500" height="350"  />
-          </div>
-        </div>
-      </div>
- 
+.contacts{
+  background:white;
+  width: 200px;
+  height: 120px;
+  margin-left: -150px;
+  margin-top: -60px;
+}
+ h2 {
+display: none;
+}
+ .phone{
+  width: 200px;
+  margin-top: -150px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+}
+i{
+font-size:14px;
+justify-content: center;
+}
+.icons{
+  margin-left: 150px;
+}
+button {
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  margin-left: -890px;
+  margin-top: -70px;
+  color: var(--primary-color);
+}
+.email{
+  font-size: 14px;
+}
+ footer{
+  font-size: 10px;
+  margin-top: 380px;
+  margin-left:-40px;
+}
+}
   
