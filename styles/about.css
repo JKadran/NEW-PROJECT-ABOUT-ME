@@ -76,7 +76,7 @@ a {
 
 @media (max-width:990px){
   html{
-    overflow: hidden;
+    overflow:  ;
   }
   
   h1{
@@ -113,10 +113,9 @@ a {
   font-size: 10px;
   text-align: center;
   margin-top: 250px;
-  
-  
- 
+
 }
 }
+
 
 

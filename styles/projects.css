@@ -20,7 +20,6 @@
 h1
  {
   color: var(--primary-color);
-  position: absolute;
  width: 825px;
  height: 170px;
  left: calc(50% - 825px/2 - 163.5px);
@@ -37,39 +36,40 @@ h2 {
   color: var(--primary-color);
   font-size: 42px;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 20px;
   margin-bottom: 50px;
-  padding: 2px;
+  padding: 50px;
   font-family: var(--primary-font);
 }
-.projects-container{
-position: absolute;
-width: 560px;
-height: 560px;
-left: 140px;
-top: 532px;
-}
+
 h3{
   color: var(--primary-color);
   font-size: 35px;
   font-family: var(--primary-font);
   text-align: start;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 h4{
   color: var(--primary-color);
   font-size: 35px;
   font-family: var(--primary-font);
-  margin-left: 70px;
-  margin-top: 10px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.projects-img-croissant-fluid{
+ margin-top: -10px;
+}
+
+.projects-img-weather-fluid{
+  margin-top: 40px;
 }
 .p-croissant {
   line-height: 27px;
   font-family: var(--primary-font);
   color: var(--text-color);
-  position: absolute;
   text-align: justify;
-  width: 514px;
+  width: 500px;
   height: 120px;
   left: calc(50% - 514px/2 + 225px);
   top: 500px;
@@ -77,17 +77,15 @@ h4{
   font-size: 16px;
   line-height: 30px;
 }
-
 .p-weather {
   line-height: 27px;
   font-family: var(--primary-font);
   color: var(--text-color);
-  position: absolute;
   text-align: justify;
-  width: 514px;
+  width: 500px;
   height: 120px;
   margin-left: 50px ;
-  top: 950px;
+  top: 1200px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -103,43 +101,77 @@ footer{
  color: blue;
 }
 
-@media (max-width: 900px)  {
+@media (max-width: 990px)  {
 
-  h1,h5{
-    font-size: 30px ;
-    margin: 5px;
-  }
-  h2{
-    font-size: 15px ;
-  }
- .projects-container{
+  .main-container {
+  display: block;
   margin: 0 auto;
-  padding: 2px;
- }
-  .projects-img-fluid{
-  width:95%;
-  height: 95%;
-  }
-
-.project-title{
-  font-size: 20px;
-  margin: 2px;
+  text-align: center;
+  padding: 50px;
 }
-.certificates{
-  margin: 0 auto;
-  padding: 2px;
+
+h1{
+ width: 350px;
+ height: 170px;
+ text-align: start;
+ font-size: 25px;
+ line-height: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+  margin-top: -260px;
+}
+
+.projects-img-croissant-fluid{
+  width: 280px;
+  height: 220px;
+}
+.projects-img-weather-fluid{
+  width: 280px;
+  height: 220px;
+  margin-top: -580px;
+  margin-left: 8px;
+  
+
+}
+h4{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 15px;
+}
+.p-croissant {
+  line-height: 24px;
+  text-align: justify;
+  width: 300px;
+  font-size: 12px;
+  margin-top: 230px;
   
 }
-.cert-img-fluid{
-  margin: 20px;
-  width:100%;
-  height: 100%;
+.p-weather {
+  line-height: 24px;
+  text-align: justify;
+  width: 300px;
+  font-size: 12px;
+  margin-top: 250px;
+  margin-left: -5px;
+  
 }
-.contacts{
- margin: 100px;
-}
-.info{
- margin:50px;
+ 
+footer{
+ text-align: center;
+ margin-top: 230px;
+ font-size: 11px;
  
 }
+
 }
